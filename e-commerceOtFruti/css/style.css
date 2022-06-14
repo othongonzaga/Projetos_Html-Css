@@ -501,19 +501,18 @@ footer{
     max-width: 1100px;
     margin: auto;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 .footer-logo{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .footer-logo strong{
     color: #ffffff;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: .9rem;
+    font-weight: 410;
 }
 /*Responsividade*/
 .menu-icon,
