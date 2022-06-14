@@ -4,9 +4,342 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="shortcut icon" href="assets/images/fav-icon.png"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>OtFruti</title>
-</head>
+</head> 
 <body>
-    
+    <!-- Parte do nav -->
+    <nav class="navigation">
+        <a href="index.html" class="logo">
+            <span>Ot</span>Fruti
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-------->
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#category">Categorias</a></li>
+            <li><a href="#popular-bundle-pack">Nossos Pacotes</a></li>
+            <li><a href="#download-app">Nosso App</a></li>
+        </ul>
+        <div class="right-nav">
+            <a href="#" class="like">
+                <i class="far fa-heart"></i>
+                <span>0</span>
+            </a>
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>0</span>
+            </a>
+        </div>
+    </nav>
+    <!--Search-banner-->
+    <section id="search-banner">
+        <img alt="bg" class="bg-1" src="assets/images/bg-1.png">
+        <img alt="bg-2" class="bg-2" src="assets/images/bg-2.png">
+        <div class="search-banner-text">
+            <h1>Order Your daily Groceries</h1>
+            <strong>#Free Delivery</strong>
+            <!--search-->
+            <form action="" class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" class="search-input" placeholder="Search your daily groceries" name="search" required>
+                <input type="submit" class="search-btn" value="Search">
+            </form>
+        </div>
+    </section>
+    <!--category-->
+    <section id="category">
+        <div class="category-heading">
+            <h2>Category</h2>
+            <span>All</span>
+        </div>
+        <div class="category-container">
+            <a href="#" class="category-box">
+                <img alt="Fish" src="assets/images/fish.png">
+                <span>Fish & Meat</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="assets/images/Vegetables.png">
+                <span>Vegatbles</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="assets/images/medicine.png">
+                <span>Medicine</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="assets/images/baby.png">
+                <span>Baby</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="assets/images/office.png">
+                <span>Office</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="assets/images/beauty.png">
+                <span>Beauty</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="assets/images/Gardening.png">
+                <span>Gardening</span>
+            </a>
+        </div>  
+    </section>
+    <!--Products-->
+    <section id="popular-product">
+        <div class="product-heading">
+            <h3>Popular Product</h3>
+            <span>All</span>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <img alt="apple" src="assets/images/apple.png">
+                <strong>Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">2$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="assets/images/chili.png">
+                <strong>Chili</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">3$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="assets/images/onion.png">
+                <strong>Onion</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">1$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="assets/images/patato.png">
+                <strong>Patato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">2.2$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="assets/images/garlic.png">
+                <strong>Garlic</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">3$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="assets/images/tamato.png">
+                <strong>Tamato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">1.4$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--Popular-bundle-pack-->
+    <section id="popular-bundle-pack">
+        <div class="product-heading">
+            <h3>Popular Bundle Pack</h3>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <img alt="pack" src="assets/images/pack1.png">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato,+4</span>
+                <span class="price">9$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="pack" src="assets/images/pack2.jpg">
+                <strong>Large Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato,+2</span>
+                <span class="price">5$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="pack" src="assets/images/pack3.png">
+                <strong>Small Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato</span>
+                <span class="price">3$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="pack" src="assets/images/pack1.png">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato,+4</span>
+                <span class="price">9$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="pack" src="assets/images/pack2.jpg">
+                <strong>Large Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato,+2</span>
+                <span class="price">5$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="pack" src="assets/images/pack3.png">
+                <strong>Small Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato</span>
+                <span class="price">3$</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--Clients-->
+    <section id="clients">
+        <div class="client-heading">
+            <h3>What Our Client's Say</h3>
+        </div>
+        <div class="client-box-container">
+            <div class="client-box">
+                <div class="client-profile">
+                    <img alt="client" src="assets/images/client-1.jpg">
+                    <div class="profile-text">
+                        <strong>James Mcavoy</strong>
+                        <span>CEO</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--comments-->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat ea id, itaque architecto atque mollitia aperiam voluptatem consequatur incidunt sed placeat, harum recusandae quaerat at hic labore eius laborum quas!</p>
+            </div>
+            <div class="client-box">
+                <div class="client-profile">
+                    <img alt="client" src="assets/images/client-2.jpg">
+                    <div class="profile-text">
+                        <strong>Adward Mcavoy</strong>
+                        <span>Software Developer</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--==comments===-->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat ea id, itaque architecto atque mollitia aperiam voluptatem consequatur incidunt sed placeat, harum recusandae quaerat at hic labore eius laborum quas!</p>
+            </div>
+            <div class="client-box">
+                <div class="client-profile">
+                    <img alt="client" src="assets/images/client-3.jpg">
+                    <div class="profile-text">
+                        <strong>Ava Alex</strong>
+                        <span>Marketer</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--==comments===-->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat ea id, itaque architecto atque mollitia aperiam voluptatem consequatur incidunt sed placeat, harum recusandae quaerat at hic labore eius laborum quas!</p>
+            </div>
+        </div>
+    </section>
+    <!--Partnre-logo-->
+    <section id="partner">
+        <div class="partner-heading">
+            <h3>Our Trusted Partner</h3>
+        </div>
+        <div class="logo-container">
+            <img alt="logo" src="assets/images/logo-1.png">
+            <img alt="logo" src="assets/images/logo-2.png">
+            <img alt="logo" src="assets/images/logo-3.png">
+            <img alt="logo" src="assets/images/logo-4.png">
+        </div>
+    </section>
+    <!--download-app-->
+    <section id="download-app">
+        <div class="app-img">
+            <img alt="app" src="assets/images/mobile-app.png">
+        </div>
+        <div class="download-app-text">
+            <strong>Download App</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id officiis, ratione, non doloribus similique nam aliquam doloremque, ipsa neque voluptas at recusandae est cumque ipsum. Vel sint libero odit placeat?</p>
+            <div class="download-btns">
+                <a href="#"><img alt="" src="assets/images/appstore-btn.png"></a>
+                <a href="#"><img alt="" src="assets/images/googleplay-btn.png"></a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
